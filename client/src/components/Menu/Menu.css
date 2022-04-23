@@ -1,0 +1,47 @@
+.menu {
+}
+
+.menu > .logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 240px 0;
+    font-size: 140px;
+    font-weight: bold;
+    text-shadow: 1px 1px 7px black;
+}
+
+.menu > .logo > .logo-symbol-one {
+    color: #ff4d3b;
+    -webkit-text-stroke: 4px #f04242;
+}
+.menu > .logo > .logo-symbol-two {
+    color: #fe8f3f;
+    -webkit-text-stroke: 4px #fa7617;
+}
+.menu > .logo > .logo-symbol-three {
+    color: #fcb743;
+    -webkit-text-stroke: 4px #fdb131;
+}
+.menu > .logo > .logo-symbol-four {
+    color: #fcd947;
+    -webkit-text-stroke: 4px #fed52d;
+}
+
+.menu > .game-play {
+    margin: 0 auto;
+    width: 250px;
+}
+.menu > .game-play > .game-play-text {
+    padding: 11px 15px;
+    text-align: center;
+    background-color: #ffe0a5;
+    color: #ff8000;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid #ff8000;
+    border-radius: 38px;
+}
+.menu > .game-play > .game-play-text:hover {
+    background-color: #f8d086;
+    color: #f07800;
+}

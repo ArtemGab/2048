@@ -1,0 +1,49 @@
+.two, .four, .eight, .sixteen, .thirty-two, .million {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.zero {
+    display: none;
+}
+.two {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #ece4db;
+    color: #756e66;
+}
+.four {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #ebe0cb;
+    color: #756e66;
+}
+.eight {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #f2b178;
+    color: #f8f6f2;
+}
+.sixteen {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #f59664;
+    color: #f8f6f2;
+}
+.thirty-two {
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #f47d5e;
+    color: #f8f6f2;
+}
+.million {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fed801;
+    color: #000000;
+}
